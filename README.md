@@ -1,12 +1,12 @@
-# Project Ribcage - Universal Agency Engine
+# Project OpenRibcage - Universal Agency Engine - Project Documentation Repo
 
-[![GitHub issues](https://img.shields.io/github/issues/craineboss/project-ribcage)](https://github.com/craineboss/project-ribcage/issues)
-[![GitHub stars](https://img.shields.io/github/stars/craineboss/project-ribcage)](https://github.com/craineboss/project-ribcage/stargazers)
-[![License](https://img.shields.io/github/license/craineboss/project-ribcage)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/craine-io/project-openribcage)](https://github.com/craine-io/project-openribcage/issues)
+[![GitHub stars](https://img.shields.io/github/stars/craine-io/project-openribcage)](https://github.com/craine-io/project-openribcage/stargazers)
+[![License](https://img.shields.io/github/license/craine-io/project-openribcage)](LICENSE)
 
 ## Overview
 
-Ribcage is a framework-agnostic abstraction layer that enables natural coordination of AI agencies through personified interfaces. It serves as the universal translator between AAMI (Avatar Agency Management Interface) and different agent frameworks like kagent, AutoGen, CrewAI, and LangGraph.
+OpenRibcage is a framework-agnostic abstraction layer that enables natural coordination of AI agencies through personified interfaces. It serves as the universal translator between AAMI (Avatar Agency Management Interface) and different agent frameworks like kagent, CrewAI, and LangGraph.
 
 ## The Vision
 
@@ -27,24 +27,23 @@ Transform complex multi-agency coordination from technical complexity into natur
 │                 AAMI - Avatar Agency Management Interface       │
 │          (Avatar-based Human-Agent Coordination)                │
 ├─────────────────────────────────────────────────────────────────┤
-│              Ribcage - Universal Agency Engine                 │
+│              Ribcage - Universal Agency Engine                  │
 │           (Framework-agnostic abstraction layer)                │
 ├─────────────────────────────────────────────────────────────────┤
 │              AI Agent Framework Layer                           │
-│           (kagent, AutoGen, CrewAI, LangGraph, etc.)          │
+│           (kagent, AutoGen, CrewAI, LangGraph, etc.)            │
 ├─────────────────────────────────────────────────────────────────┤
-│           Model Context Protocol (MCP) Layer                   │
+│           Model Context Protocol (MCP) Layer                    │
 │                  (Standardized Tool Access)                     │
 ├─────────────────────────────────────────────────────────────────┤
-│              External Tools & Systems                          │
-│    (Kubernetes, Prometheus, GitHub, JIRA, Slack, Datadog)     │
+│              External Tools & Systems                           │
+│    (Kubernetes, Prometheus, GitHub, JIRA, Slack, Datadog)       │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ## Supported Frameworks
 
 - **kagent** - Kubernetes-native agent framework (Primary)
-- **AutoGen** - Conversation-driven multi-agent orchestration
 - **CrewAI** - Role-based team coordination
 - **LangGraph** - Workflow-based agent coordination
 
@@ -56,7 +55,7 @@ Transform complex multi-agency coordination from technical complexity into natur
 - Agency abstraction layer specification
 
 ### Phase 2: Core Infrastructure (Weeks 3-5)
-- Ribcage core engine implementation
+- OpenRibcage core engine implementation
 - kagent reference adapter
 - AAMI integration layer
 
@@ -94,13 +93,7 @@ Transform complex multi-agency coordination from technical complexity into natur
 ```bash
 # Clone the repository
 git clone https://github.com/craineboss/project-ribcage.git
-cd project-ribcage
-
-# Install development environment (Coming in Phase 2)
-./scripts/install-dev.sh
-
-# Deploy Ribcage (Coming in Phase 2)
-helm install ribcage ./charts/ribcage
+cd project-openribcage
 ```
 
 ## Contributing
@@ -109,7 +102,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ### Development Workflow
 
-1. Check the [GitHub Issues](https://github.com/craineboss/project-ribcage/issues) for current tasks
+1. Check the [GitHub Issues](https://github.com/craineboss/project-openribcage/issues) for current tasks
 2. Fork the repository
 3. Create a feature branch
 4. Make your changes
@@ -125,7 +118,7 @@ This project uses GitHub Issues and Projects for task management. Each developme
 
 ## Related Projects
 
-- [AAMI](https://github.com/craineboss/aami) - Avatar Agency Management Interface
+- [OpenRibcage](https://github.com/craine-io/openribcage) - OpenRibcage Engine
 - [kagent](https://kagent.dev/) - Kubernetes-native agent framework by Solo.io
 - [AIRE Framework](https://github.com/solo-io/aire) - AI for Reliability Engineering
 
@@ -137,13 +130,12 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 - **Project Lead**: Jason T Clark, Craine Technology Labs
 - **GitHub**: [@craineboss](https://github.com/craineboss)
-- **Issues**: [GitHub Issues](https://github.com/craineboss/project-ribcage/issues)
+- **Issues**: [GitHub Issues](https://github.com/craineboss/project-openribcage/issues)
 
 ## Acknowledgments
 
 - Solo.io for kagent framework collaboration
 - NVIDIA for digital humans research
-- The open-source AI agent community
 
 ---
 
