@@ -81,7 +81,7 @@ Transform complex multi-agency coordination from technical complexity into natur
 
 ## Getting Started
 
-### Prerequisites
+### Prerequisites (for OpenRibcage itself)
 
 - Kubernetes cluster (k3d recommended for development)
 - Docker
@@ -92,7 +92,7 @@ Transform complex multi-agency coordination from technical complexity into natur
 
 ```bash
 # Clone the repository
-git clone https://github.com/craineboss/project-ribcage.git
+git clone https://github.com/craine-io/project-openribcage.git
 cd project-openribcage
 ```
 
@@ -118,7 +118,7 @@ This project uses GitHub Issues and Projects for task management. Each developme
 
 ## Related Projects
 
-- [OpenRibcage](https://github.com/craine-io/openribcage) - OpenRibcage Engine
+- [OpenRibcage](https://github.com/craine-io/openribcage) - OpenRibcage codebase
 - [kagent](https://kagent.dev/) - Kubernetes-native agent framework by Solo.io
 - [AIRE Framework](https://github.com/solo-io/aire) - AI for Reliability Engineering
 
@@ -130,7 +130,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 - **Project Lead**: Jason T Clark, Craine Technology Labs
 - **GitHub**: [@craineboss](https://github.com/craineboss)
-- **Issues**: [GitHub Issues](https://github.com/craineboss/project-openribcage/issues)
+- **Issues**: [GitHub Issues](https://github.com/craine-io/project-openribcage/issues)
 
 ## Acknowledgments
 
@@ -138,5 +138,3 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 - NVIDIA for digital humans research
 
 ---
-
-*Transforming complex multi-agency coordination into natural conversation through framework-agnostic abstraction and personified interfaces.*
