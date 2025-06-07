@@ -1,8 +1,8 @@
-# Project OpenRibcage - Universal Agency Engine - Project Documentation Repo
+# OpenRibcage - Project Documentation Repo
 
-[![GitHub issues](https://img.shields.io/github/issues/craine-io/project-openribcage)](https://github.com/craine-io/project-openribcage/issues)
-[![GitHub stars](https://img.shields.io/github/stars/craine-io/project-openribcage)](https://github.com/craine-io/project-openribcage/stargazers)
-[![License](https://img.shields.io/github/license/craine-io/project-openribcage)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/craine-io/openribcage)](https://github.com/craine-io/openribcage/issues)
+[![GitHub stars](https://img.shields.io/github/stars/craine-io/openribcage)](https://github.com/craine-io/openribcage/stargazers)
+[![License](https://img.shields.io/github/license/craine-io/openribcage)](LICENSE)
 
 ## Overview
 
@@ -23,27 +23,20 @@ Transform complex multi-agency coordination from technical complexity into natur
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                 AAMI - Avatar Agency Management Interface       │
-│          (Avatar-based Human-Agent Coordination)                │
-├─────────────────────────────────────────────────────────────────┤
-│              Ribcage - Universal Agency Engine                  │
-│           (Framework-agnostic abstraction layer)                │
-├─────────────────────────────────────────────────────────────────┤
-│              AI Agent Framework Layer                           │
-│           (kagent, AutoGen, CrewAI, LangGraph, etc.)            │
-├─────────────────────────────────────────────────────────────────┤
-│           Model Context Protocol (MCP) Layer                    │
-│                  (Standardized Tool Access)                     │
-├─────────────────────────────────────────────────────────────────┤
-│              External Tools & Systems                           │
-│    (Kubernetes, Prometheus, GitHub, JIRA, Slack, Datadog)       │
-└─────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────┐
+│     AAMI Avatar Interface (Coming)      │  ← Natural conversation
+├─────────────────────────────────────────┤
+│     OpenRibcage Universal Engine        │  ← What we're designing now
+├─────────────────────────────────────────┤
+│  kagent | CrewAI | n8n | LangGraph      │  ← Your favorite frameworks
+├─────────────────────────────────────────┤
+│        Your Tools & Infrastructure      │  ← What you already have
+└─────────────────────────────────────────┘
 ```
 
-## Supported Frameworks
+## Targeted Frameworks
 
-- **kagent** - Kubernetes-native agent framework (Primary)
+- **kagent** - Kubernetes-native agent framework (Initial)
 - **CrewAI** - Role-based team coordination
 - **LangGraph** - Workflow-based agent coordination
 
@@ -57,12 +50,12 @@ Transform complex multi-agency coordination from technical complexity into natur
 ### Phase 2: Core Infrastructure (Weeks 3-5)
 - OpenRibcage core engine implementation
 - kagent reference adapter
-- AAMI integration layer
+- AAMI integration layer (stretch goal)
 
 ### Phase 3: Multi-Framework Support (Weeks 6-8)
 - Additional framework adapters
 - Cross-framework coordination
-- Avatar-agency binding
+- Avatar-agency binding (stretch goal)
 
 ### Phase 4: Dashboard & Integration (Weeks 9-12)
 - Management interface
@@ -78,23 +71,6 @@ Transform complex multi-agency coordination from technical complexity into natur
 - Comprehensive testing
 - Performance optimization
 - Launch preparation
-
-## Getting Started
-
-### Prerequisites (for OpenRibcage itself)
-
-- Kubernetes cluster (k3d recommended for development)
-- Docker
-- Go 1.21+
-- Node.js 18+
-
-### Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/craine-io/project-openribcage.git
-cd project-openribcage
-```
 
 ## Contributing
 
@@ -135,6 +111,5 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 ## Acknowledgments
 
 - Solo.io for kagent framework collaboration
-- NVIDIA for digital humans research
 
 ---
